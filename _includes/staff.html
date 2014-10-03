@@ -1,0 +1,54 @@
+<section class="section-staff">
+
+  <h3 id="staff">staff</h3>
+
+  
+  <div class="staff-mobile-nav">
+    {% for staff in site.data.settings.staff %}
+    <span></span>
+    {% endfor %}
+  </div>
+  
+  <div class="staff-belt">
+    
+  
+    
+    
+    {% for staff in site.data.settings.staff %}
+    <div class="staff-unit">
+      
+      <figure class="staff-face">
+        <img src="assets/img/staff/{{ staff.avatar }}" alt="staff-face">
+        <figcaption>
+          <strong class="staff-name">{{ staff.name }}</strong>
+          <em class="staff-title">{{ staff.title }}</em>
+        </figcaption>
+      </figure>
+      
+      <div class="staff-content">
+        <div class="staff-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+        {{ staff.quote }}
+      </div>
+      
+    </div>
+    {% endfor %}
+    
+  </div>
+  
+  <div class="staff-controls">
+    <div class="staff-control-next">{% include icons/icon-next.html %}</div>
+    <div class="staff-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+  
+  
+  
+  <div class="staff-logos">
+    {% for staff in site.data.settings.staff %}
+    <span class="staff-logo"></span>
+    {% endfor %}
+  </div>
+  
+  
+  
+
+</section>
