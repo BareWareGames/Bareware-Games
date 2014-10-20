@@ -2,8 +2,10 @@
 title: Alone
 ---
 
+![Alone](assets/img/Projects/proj-1/img-1.jpg)
 
 Alone - Horror
 
 Thrown into a busy home you are forced to explore, though no one is here. Who still lives here and what do they want with you?
 
+Play the Alone prototype [here](assets/game_builds/Alone/Alone-v.0.01.html).
