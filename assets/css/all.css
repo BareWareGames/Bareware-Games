@@ -785,7 +785,10 @@ footer {
       display: block;
       background-position: center center;
       background-repeat: no-repeat;
-      margin: 0 auto 30px; }
+      margin: 0 auto 30px; 
+      background: #fff;
+      color: #999;
+    }
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
 .blurb {
