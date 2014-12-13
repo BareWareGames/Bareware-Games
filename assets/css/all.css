@@ -735,7 +735,7 @@ footer {
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3;
-    fill: #667A83; 
+    background: #9AB3B7;
      }
   .face-lockup [class^="icon-"] {
     height: 100px;
