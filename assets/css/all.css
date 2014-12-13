@@ -723,9 +723,6 @@ footer {
   -ms-flex-pack: justify; }
   .face-lockup .face-img {
     border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../img/logo.svg);
     height: 200px;
     width: 200px;
     -webkit-box-ordinal-group: 3;
@@ -735,7 +732,6 @@ footer {
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3;
-    background: #9AB3B7;
      }
   .face-lockup [class^="icon-"] {
     height: 100px;
