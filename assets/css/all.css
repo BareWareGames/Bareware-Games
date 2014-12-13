@@ -721,7 +721,7 @@ footer {
   -o-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-pack: justify; }
-  .face-lockup .face-img {
+  .face-lockup [class^="icon-"].logo {
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -779,7 +779,7 @@ footer {
     text-align: center; }
     .face-lockup div {
       display: inline-block; }
-    .face-lockup .face-img {
+    .face-lockup [class^="icon-"].logo {
       display: block;
       background-position: center center;
       background-repeat: no-repeat;
