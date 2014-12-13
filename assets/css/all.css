@@ -734,7 +734,9 @@ footer {
     -webkit-order: 3;
     -moz-order: 3;
     order: 3;
-    -ms-flex-order: 3; }
+    -ms-flex-order: 3;
+    fill: #667A83; 
+    background: #9AB3B7; }
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px;
@@ -786,8 +788,6 @@ footer {
       background-position: center center;
       background-repeat: no-repeat;
       margin: 0 auto 30px; 
-      background: #fff;
-      color: #999;
     }
     .face-lockup [class^="icon-"] {
       margin: 10px 9%; } }
